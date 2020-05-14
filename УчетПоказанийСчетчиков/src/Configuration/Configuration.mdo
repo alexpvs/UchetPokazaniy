@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69f9fe90-9571-4193-ab70-933b9e364c09">
+  <name>УчетПоказанийСчетчиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет показаний счетчиков</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="82775d27-c850-40df-bbf4-41effba7fb5c"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="b8d34d4b-1c1b-41be-b507-d2b4930f78dc"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="e99bd2ab-4227-45fa-9b96-8ef28095e521"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="8bb64b5a-61ca-486b-b7b2-4bc9f14dcf1f"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="d7db742e-427c-4203-a32f-5995345ba50f"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="3f06bb67-a730-4a1b-af15-1a57b3db111c"/>
+  <configurationExtensionCompatibilityMode>8.3.15</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>MobileDevice</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>alexpvs</vendor>
+  <version>1.0.0.1</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value>Учет показаний счетчиков</value>
+  </briefInformation>
+  <detailedInformation>
+    <key>ru</key>
+    <value>Конфигурация по учету показаний счетчиков по услугам ЖКХ</value>
+  </detailedInformation>
+  <copyright>
+    <key>ru</key>
+    <value>alexpvs</value>
+  </copyright>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.15</compatibilityMode>
+  <languages uuid="361fdc56-b70f-4728-8e49-bd7169f7e59c">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+</mdclass:Configuration>
