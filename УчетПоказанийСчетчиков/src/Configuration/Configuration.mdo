@@ -43,4 +43,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.УчетПоказаний</subsystems>
+  <subsystems>Subsystem.УчетОплат</subsystems>
+  <catalogs>Catalog.ОбъектыУчета</catalogs>
 </mdclass:Configuration>

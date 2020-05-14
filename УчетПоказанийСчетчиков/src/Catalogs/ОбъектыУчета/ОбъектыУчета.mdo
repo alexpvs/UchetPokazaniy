@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a957533-8596-436a-8429-5a6e7075859e">
+  <producedTypes>
+    <objectType typeId="735d98a5-4070-4fd8-97b2-c6245d90c815" valueTypeId="53bd53b0-fa37-4053-85ac-c15bb2b9359a"/>
+    <refType typeId="efdd9945-7eaf-490a-9183-f9ec29b71d3c" valueTypeId="25c7af7d-0a59-48dd-a9ed-f8bf88f4ea13"/>
+    <selectionType typeId="0da56cd4-b265-4b20-8681-5390c5f2883d" valueTypeId="4e2c35fe-564d-4cf9-8f03-11ba58ba3aa5"/>
+    <listType typeId="9af33456-745c-4758-a660-f6a14ec08534" valueTypeId="bc0741da-2ee8-48cd-808e-f9ed5451d503"/>
+    <managerType typeId="ba80a680-dc35-46d4-ae42-2db8d3a5e8b2" valueTypeId="ab1a1459-83e6-446d-83c6-821833873c0b"/>
+  </producedTypes>
+  <name>ОбъектыУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты учета</value>
+  </synonym>
+  <comment>Квартиры, гаражи, погреба</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ОбъектыУчета.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ОбъектыУчета.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>75</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="bce88f30-d510-4967-88cd-a991a99aef80">
+    <name>ПолноеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c15fa832-579a-4983-9209-5959d8aa1fc9">
+    <name>АдресОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес объекта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
