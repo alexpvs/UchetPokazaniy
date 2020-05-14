@@ -46,4 +46,6 @@
   <subsystems>Subsystem.УчетПоказаний</subsystems>
   <subsystems>Subsystem.УчетОплат</subsystems>
   <catalogs>Catalog.ОбъектыУчета</catalogs>
+  <catalogs>Catalog.Счетчики</catalogs>
+  <enums>Enum.ВидыПотребляемыхРесурсов</enums>
 </mdclass:Configuration>

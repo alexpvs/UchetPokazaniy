@@ -8,4 +8,5 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.ОбъектыУчета</content>
+  <content>Enum.ВидыПотребляемыхРесурсов</content>
 </mdclass:Subsystem>

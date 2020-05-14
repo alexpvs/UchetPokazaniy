@@ -31,11 +31,13 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ОбъектыУчета.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ОбъектыУчета.Form.ФормаСписка</defaultListForm>
   <attributes uuid="bce88f30-d510-4967-88cd-a991a99aef80">
     <name>ПолноеНаименование</name>
     <synonym>
       <key>ru</key>
-      <value>Полное наименование</value>
+      <value>Описание</value>
     </synonym>
     <type>
       <types>String</types>
@@ -61,4 +63,22 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="2a4bc11d-86de-42dd-a2c1-3888f8dba0f6">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ab600236-f470-459b-b536-cba88270e4ef">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

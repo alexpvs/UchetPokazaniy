@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c39483b9-0dc8-4b74-975a-6784c2c375aa">
+  <producedTypes>
+    <refType typeId="4c1b8ed6-fef9-466f-950b-c3452c0d4178" valueTypeId="7050ced6-a6c8-480c-ad57-996701521a05"/>
+    <listType typeId="682c2f1d-54cd-4e09-9b98-4baa067f8664" valueTypeId="00aa0eb6-4ce7-4056-91b1-18cb57ca392a"/>
+    <managerType typeId="6ef77c94-4924-4bf9-92fd-d099c7702ee9" valueTypeId="f7b3e461-0fbb-475e-aefb-662c67486173"/>
+  </producedTypes>
+  <name>ВидыПотребляемыхРесурсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды потребляемых ресурсов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="984f1e99-aea6-4114-9b77-b298271b6870">
+    <name>ВодаГорячая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вода горячая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="95c3156e-b0e3-4efc-8271-6da763de2a77">
+    <name>ВодаХолодная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вода холодная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0c15ac4f-5a6a-4442-b25f-5dfab2dd699d">
+    <name>Газ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Газ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="930623c4-b895-48c4-a4cb-d98922b1c4af">
+    <name>Электричество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электричество</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
