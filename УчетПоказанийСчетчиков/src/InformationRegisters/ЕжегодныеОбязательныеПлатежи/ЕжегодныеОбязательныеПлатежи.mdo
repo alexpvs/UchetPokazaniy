@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f89c70d7-9a8b-4162-b97c-ef321f198029">
+  <producedTypes>
+    <selectionType typeId="55f9296d-ac77-42ee-b202-c7a0eb94cf95" valueTypeId="36ce888c-173a-4fcc-b766-cf5c7183b121"/>
+    <listType typeId="b7e515d0-12c9-4f73-b2d9-8019d901cf9c" valueTypeId="508827b2-15d3-4353-8f5c-7c1c9e8ae143"/>
+    <managerType typeId="66a11b89-3199-46cb-ab43-e7e714c8627c" valueTypeId="66dcbd25-a46f-4687-b7f4-07be75d798bd"/>
+    <recordSetType typeId="33efcf14-b9ce-4ed6-ae63-a6e8a6843617" valueTypeId="cec60672-8c6e-440e-8599-f9639f83951f"/>
+    <recordKeyType typeId="446d9f85-715d-4d93-ac05-364f648fb0bb" valueTypeId="8fbd5de2-2a6b-4daa-ae37-3933c8f02078"/>
+    <recordType typeId="d67ae02c-1732-4716-9e89-2348467523e9" valueTypeId="afa292a1-ba26-4178-a13c-1efa8d090dc9"/>
+    <recordManagerType typeId="ebcec457-40aa-4065-ba74-736feaaa19d3" valueTypeId="986fb425-fa66-4360-b0ac-be903d8e73a8"/>
+  </producedTypes>
+  <name>ЕжегодныеОбязательныеПлатежи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ежегодные обязательные платежи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <informationRegisterPeriodicity>Year</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6862ab34-74f7-455e-a739-7de866f422f4">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="b2ad0190-9ba9-45fb-a2fe-36c4dfd8c2b7">
+    <name>ОбъектУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект учета</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектыУчета</types>
+    </type>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="96b93822-af5f-40d8-8daa-5b38e2422798">
+    <name>ВидПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид платежа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыПлатежей</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -47,5 +47,8 @@
   <subsystems>Subsystem.УчетОплат</subsystems>
   <catalogs>Catalog.ОбъектыУчета</catalogs>
   <catalogs>Catalog.Счетчики</catalogs>
+  <catalogs>Catalog.ВидыПлатежей</catalogs>
+  <catalogs>Catalog.ПоставщикиУслуг</catalogs>
   <enums>Enum.ВидыПотребляемыхРесурсов</enums>
+  <informationRegisters>InformationRegister.ЕжегодныеОбязательныеПлатежи</informationRegisters>
 </mdclass:Configuration>

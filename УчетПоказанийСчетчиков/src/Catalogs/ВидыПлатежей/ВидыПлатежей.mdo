@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a825858d-29a4-4e76-bd55-2a27698017c9">
+  <producedTypes>
+    <objectType typeId="ced714f8-796e-4a0e-bc4f-7826fe38450d" valueTypeId="a3b5f86e-4c07-4702-8a9a-0207afea5de8"/>
+    <refType typeId="017f490c-c278-4c51-9dc2-4b534d156e30" valueTypeId="48e97276-e1bd-452a-9f6f-3c4ec917fb83"/>
+    <selectionType typeId="66aa49bb-b117-4980-95bd-6a07f38367bb" valueTypeId="e1314ce3-2d96-42d8-847e-68bf7b411d9b"/>
+    <listType typeId="f9c41f89-eb1a-4fff-892e-2fc09f04aa9a" valueTypeId="a3f5d485-fdba-401d-808f-147eaab39440"/>
+    <managerType typeId="4df5a20b-3264-45e4-95a3-a59c938a7414" valueTypeId="4301c1f2-149a-46ab-a4e6-49721d2fb00d"/>
+  </producedTypes>
+  <name>ВидыПлатежей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды платежей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыПлатежей.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВидыПлатежей.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид платежа</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды платежей</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>75</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВидыПлатежей.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ВидыПлатежей.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ВидыПлатежей.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="e964cdde-3e6c-4ccc-8a2b-a3cee94b31e5">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c2e2f3df-b360-473a-8ee1-965176a07cca">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b22f4e3e-5edd-485e-a1bd-00a5d10f98f9">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
