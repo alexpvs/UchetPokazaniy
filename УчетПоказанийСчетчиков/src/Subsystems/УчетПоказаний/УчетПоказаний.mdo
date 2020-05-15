@@ -9,4 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.ОбъектыУчета</content>
   <content>Enum.ВидыПотребляемыхРесурсов</content>
+  <content>InformationRegister.ДоступКЛичнымКабинетам</content>
 </mdclass:Subsystem>

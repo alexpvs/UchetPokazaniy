@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8278e09-068c-4bf8-9608-127b9415bea7">
+  <producedTypes>
+    <selectionType typeId="a289e5ac-af36-4aa9-945b-dfad83933639" valueTypeId="be25c86a-4fa9-4041-87d9-5167029f3a64"/>
+    <listType typeId="21e5947a-7816-49fa-aa25-e5b259b016fe" valueTypeId="c79c75b3-2d3b-4b32-acab-c20730c79d0b"/>
+    <managerType typeId="47cb928a-e7c8-4748-a39e-adfa85b7c6d7" valueTypeId="0922eb1a-47f2-4a4a-be36-013b96129e3b"/>
+    <recordSetType typeId="fcfc89ab-0461-43e0-8842-f65c3c721942" valueTypeId="c8024a32-2df1-4d42-9fed-93531047d599"/>
+    <recordKeyType typeId="02044d81-1a64-498f-b6cb-8c142f5b88ef" valueTypeId="5a7664e0-dcfe-4994-bc60-58ca2584d7fc"/>
+    <recordType typeId="d5b95795-8a3c-4beb-b807-e1925328143b" valueTypeId="bd7c7143-b815-456b-b5a3-a4ce5bcf3583"/>
+    <recordManagerType typeId="96bd34fa-9cf5-485f-b6e5-f206e2551b3b" valueTypeId="5d169358-da10-4a9c-96e0-f7b04788059f"/>
+  </producedTypes>
+  <name>ДоступКЛичнымКабинетам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступ к личным кабинетам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="98470f79-d71d-4bc9-8e47-77b6520e27b9">
+    <name>АдресСайта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес сайта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="62a75aca-e901-49c7-9489-d0798eb35a37">
+    <name>Логин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логин</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>35</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="9c1c666a-a869-4570-b7c8-ea2a977635ed">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="6f39ff1c-77a0-411b-ba7a-af0cfa237731">
+    <name>ОбъектУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект учета</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектыУчета</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="30773efe-3e60-419d-8a28-60bd9be41a6e">
+    <name>Поставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПоставщикиУслуг</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

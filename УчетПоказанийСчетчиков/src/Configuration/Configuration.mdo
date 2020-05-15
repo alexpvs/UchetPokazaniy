@@ -51,4 +51,5 @@
   <catalogs>Catalog.ПоставщикиУслуг</catalogs>
   <enums>Enum.ВидыПотребляемыхРесурсов</enums>
   <informationRegisters>InformationRegister.ЕжегодныеОбязательныеПлатежи</informationRegisters>
+  <informationRegisters>InformationRegister.ДоступКЛичнымКабинетам</informationRegisters>
 </mdclass:Configuration>
