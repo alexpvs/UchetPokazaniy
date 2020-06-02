@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74c4edc8-a68d-433d-9076-4179b453d741">
+  <producedTypes>
+    <selectionType typeId="abc55082-7243-440f-8082-ea70af27f841" valueTypeId="e39b850c-2aba-4131-b159-2b1144c2dc5b"/>
+    <listType typeId="126764af-f9a7-41cd-a16f-6fd9ce021015" valueTypeId="18d28ac6-5165-442e-a894-1d0b1cbdb783"/>
+    <managerType typeId="44aa2d80-5c6d-456c-a188-b8d7383ab955" valueTypeId="87fd3c91-39a0-461e-9fa0-a1930dcb8201"/>
+    <recordSetType typeId="af5b89b3-d5d3-47ba-82a3-5e98c99b7262" valueTypeId="119d9217-e176-45aa-b7ec-0e2bc2e3ab63"/>
+    <recordKeyType typeId="e7b071d3-7b7a-44b8-8eb2-957193bbed0c" valueTypeId="50f4ba5b-3f77-428a-9df5-d87221fde157"/>
+    <recordType typeId="f85c5db5-4feb-4ad3-9837-1d19130364af" valueTypeId="771fcfc8-b19a-4ff0-8bfd-a9d57ac23004"/>
+    <recordManagerType typeId="4601dc8b-c7c2-4892-8674-6608aae87b35" valueTypeId="a168f3de-35a0-47db-b110-2c4932f287c4"/>
+  </producedTypes>
+  <name>ПоказанияСчетчиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показания счетчиков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0f7460db-44b5-453f-b993-22d9183ef44e">
+    <name>Показания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показания</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>5</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="cf84ac3b-1f68-42d6-a7d6-344b4adb83b7">
+    <name>ОбъектУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект учета</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектыУчета</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e67ce2b0-1e0c-4e50-8f2d-f9e1f08b1f91">
+    <name>Счетчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счетчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Счетчики</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

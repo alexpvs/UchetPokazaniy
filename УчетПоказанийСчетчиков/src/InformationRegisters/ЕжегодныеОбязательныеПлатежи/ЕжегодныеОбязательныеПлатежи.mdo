@@ -15,6 +15,7 @@
     <value>Ежегодные обязательные платежи</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>InformationRegister.ЕжегодныеОбязательныеПлатежи.Form.ФормаСписка</defaultListForm>
   <informationRegisterPeriodicity>Year</informationRegisterPeriodicity>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="6862ab34-74f7-455e-a739-7de866f422f4">
@@ -30,6 +31,21 @@
         <scale>2</scale>
         <nonNegative>true</nonNegative>
       </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="cd028104-326a-4161-93f5-cde99674c423">
+    <name>СрокПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок платежа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
     </type>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -62,4 +78,13 @@
     <dataHistory>Use</dataHistory>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <forms uuid="02bf39ba-14c8-4d21-85d7-7189637acb73">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:InformationRegister>

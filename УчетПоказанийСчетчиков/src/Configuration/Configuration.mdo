@@ -45,6 +45,7 @@
   </languages>
   <subsystems>Subsystem.УчетПоказаний</subsystems>
   <subsystems>Subsystem.УчетОплат</subsystems>
+  <styles>Style.ОсновнойСтиль</styles>
   <catalogs>Catalog.ОбъектыУчета</catalogs>
   <catalogs>Catalog.Счетчики</catalogs>
   <catalogs>Catalog.ВидыПлатежей</catalogs>
@@ -52,4 +53,5 @@
   <enums>Enum.ВидыПотребляемыхРесурсов</enums>
   <informationRegisters>InformationRegister.ЕжегодныеОбязательныеПлатежи</informationRegisters>
   <informationRegisters>InformationRegister.ДоступКЛичнымКабинетам</informationRegisters>
+  <informationRegisters>InformationRegister.ПоказанияСчетчиков</informationRegisters>
 </mdclass:Configuration>

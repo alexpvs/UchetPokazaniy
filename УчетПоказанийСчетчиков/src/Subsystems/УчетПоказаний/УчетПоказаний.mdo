@@ -10,4 +10,5 @@
   <content>Catalog.ОбъектыУчета</content>
   <content>Enum.ВидыПотребляемыхРесурсов</content>
   <content>InformationRegister.ДоступКЛичнымКабинетам</content>
+  <content>InformationRegister.ПоказанияСчетчиков</content>
 </mdclass:Subsystem>
