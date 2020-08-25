@@ -15,6 +15,8 @@
     <value>Показания счетчиков</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultRecordForm>InformationRegister.ПоказанияСчетчиков.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ПоказанияСчетчиков.Form.ФормаСписка</defaultListForm>
   <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="0f7460db-44b5-453f-b993-22d9183ef44e">
@@ -56,8 +58,30 @@
     <type>
       <types>CatalogRef.Счетчики</types>
     </type>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.ПоказанияСчетчиков.Dimension.ОбъектУчета</field>
+    </choiceParameterLinks>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <forms uuid="9a9c2912-4186-401e-a80f-accff77fc13b">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8b4ad328-088a-4d59-a417-482de2462b72">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:InformationRegister>
