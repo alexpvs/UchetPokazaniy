@@ -46,6 +46,7 @@
   <subsystems>Subsystem.УчетПоказаний</subsystems>
   <subsystems>Subsystem.УчетОплат</subsystems>
   <styles>Style.ОсновнойСтиль</styles>
+  <commonModules>CommonModule.РасчетПоказаний</commonModules>
   <catalogs>Catalog.ОбъектыУчета</catalogs>
   <catalogs>Catalog.Счетчики</catalogs>
   <catalogs>Catalog.ВидыПлатежей</catalogs>
