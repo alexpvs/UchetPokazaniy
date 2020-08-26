@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f89c70d7-9a8b-4162-b97c-ef321f198029">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f89c70d7-9a8b-4162-b97c-ef321f198029">
   <producedTypes>
     <selectionType typeId="55f9296d-ac77-42ee-b202-c7a0eb94cf95" valueTypeId="36ce888c-173a-4fcc-b766-cf5c7183b121"/>
     <listType typeId="b7e515d0-12c9-4f73-b2d9-8019d901cf9c" valueTypeId="508827b2-15d3-4353-8f5c-7c1c9e8ae143"/>
@@ -32,8 +32,11 @@
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="cd028104-326a-4161-93f5-cde99674c423">
     <name>СрокПлатежа</name>
@@ -47,8 +50,11 @@
         <dateFractions>Date</dateFractions>
       </dateQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <dimensions uuid="b2ad0190-9ba9-45fb-a2fe-36c4dfd8c2b7">
     <name>ОбъектУчета</name>
@@ -59,9 +65,12 @@
     <type>
       <types>CatalogRef.ОбъектыУчета</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
@@ -74,8 +83,11 @@
     <type>
       <types>CatalogRef.ВидыПлатежей</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <forms uuid="02bf39ba-14c8-4d21-85d7-7189637acb73">

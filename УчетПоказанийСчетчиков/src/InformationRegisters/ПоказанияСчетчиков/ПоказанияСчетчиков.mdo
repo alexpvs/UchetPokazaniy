@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74c4edc8-a68d-433d-9076-4179b453d741">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74c4edc8-a68d-433d-9076-4179b453d741">
   <producedTypes>
     <selectionType typeId="abc55082-7243-440f-8082-ea70af27f841" valueTypeId="e39b850c-2aba-4131-b159-2b1144c2dc5b"/>
     <listType typeId="126764af-f9a7-41cd-a16f-6fd9ce021015" valueTypeId="18d28ac6-5165-442e-a894-1d0b1cbdb783"/>
@@ -33,8 +33,11 @@
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <dimensions uuid="cf84ac3b-1f68-42d6-a7d6-344b4adb83b7">
     <name>ОбъектУчета</name>
@@ -45,8 +48,11 @@
     <type>
       <types>CatalogRef.ОбъектыУчета</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="e67ce2b0-1e0c-4e50-8f2d-f9e1f08b1f91">
@@ -58,12 +64,15 @@
     <type>
       <types>CatalogRef.Счетчики</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <choiceParameterLinks>
       <name>Отбор.Владелец</name>
       <field>InformationRegister.ПоказанияСчетчиков.Dimension.ОбъектУчета</field>
     </choiceParameterLinks>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <forms uuid="9a9c2912-4186-401e-a80f-accff77fc13b">

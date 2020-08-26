@@ -11,12 +11,17 @@
   <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="8bb64b5a-61ca-486b-b7b2-4bc9f14dcf1f"/>
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="d7db742e-427c-4203-a32f-5995345ba50f"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="3f06bb67-a730-4a1b-af15-1a57b3db111c"/>
-  <configurationExtensionCompatibilityMode>8.3.15</configurationExtensionCompatibilityMode>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="0441b06f-2090-4401-b7e1-e6cb71482189"/>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>alexpvs</vendor>
-  <version>1.0.0.1</version>
+  <version>1.0.0.2</version>
+  <requiredMobileApplicationPermissions>
+    <permission>AllowOSBackup</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <briefInformation>
     <key>ru</key>
@@ -34,7 +39,7 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.3.15</compatibilityMode>
+  <compatibilityMode>8.3.17</compatibilityMode>
   <languages uuid="361fdc56-b70f-4728-8e49-bd7169f7e59c">
     <name>Русский</name>
     <synonym>
